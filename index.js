@@ -49,9 +49,9 @@ connect();
 
 app.use(cors({origin: [
   'http://localhost:4000',
-  'http://localhost:5173',
-  'https://ahmedadmin.vercel.app',
-  'https://ahmedassociates.vercel.app'
+  'http://localhost:3000',
+  'https://adminashiqur.vercel.app',
+  'https://ashiqurassociates.vercel.app'
 ], credentials: true}));
 app.use(express.json());
 app.use(cookieParser());
