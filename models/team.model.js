@@ -27,7 +27,6 @@ const TeamSchema = new Schema(
     },
     desc: {
       type: String,
-      required: true,
     },
   },
   {timestamps: true}
